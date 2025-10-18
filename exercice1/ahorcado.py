@@ -48,3 +48,5 @@ while resuelto == 1:
         print(guiones)
         if vidas == 0:
             break
+
+# info a nova branca
