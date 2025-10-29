@@ -5,3 +5,4 @@ from .models import Tarea
 
 class ListaPendientes(ListView):
     model = Tarea
+    context_object_name="tareas"
