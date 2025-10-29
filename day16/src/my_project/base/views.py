@@ -10,4 +10,5 @@ class ListaPendientes(ListView):
 
 class DetalleTarea(DetailView):
     model = Tarea
-    context_object_name = "detalles"
+    context_object_name = "tarea"
+    template_name="base/tarea.html"
